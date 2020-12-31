@@ -24,10 +24,10 @@ export default {
     initMap() {
       var mapLayer2 = L.tileLayer.chinaProvider('Geoq.Normal.Map', {
             maxZoom: 16,
-            minZoom: 3
+            minZoom: 8
         });
         map = L.map('lmap', {
-            minZoom: 3,
+            minZoom: 8,
             maxZoom: 16,
             center: [37, 118],
             zoom: 8,
